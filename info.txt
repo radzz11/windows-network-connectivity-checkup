@@ -1,21 +1,11 @@
 Works in this way
 
-
-      				mastercheck.bat
-      				/	   	|		\
-      			/		   	|			\
-      		/			   	|				\
-      	/				   	|					\
-      	|					|					|
-google_master.bat  gateway_master.bat  remote_master.bat
-		|				   	|					|
-		|				   	|					|
-		|				   	|					|
-		|				   	|					|
-ping_google.bat		ping_gateway.bat	ping_remote.bat
-		|					|					|
-		\					|					/
-			\				|				/
-				\			|			/
-					\		|		/
-					finalreport.txt
+			
+					
+                      	  --->	google_master.bat  --->  ping_google.bat  --->  ping_googlelog.txt  --->
+			 /										 \
+			/										  \
+mastercheck.bat--------->  gateway_master.bat --->  ping_gateway.bat --->  ping_gatewaylog.txt ----->  finalreport.txt
+			\										  /
+			 \										 /
+		   	  --->  remote_master.bat  --->  ping_remote.bat  --->  ping_remotelog.txt  --->
