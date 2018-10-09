@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # Windows Network Checkup Script
 
-## Supports Windows 7 or UP
+## Checks windows users(7 or above) internal network &amp; internet connectivity status (using ping) 
 
 ### Quick Start
 
@@ -13,5 +12,4 @@
 - 	After completion of 1 minute(60s) this script will automatically stop get & log all the contents in **finalreport.txt** file in main folder.
 =======
 # windows-network-connectivity-checkup
-Checks windows users(7 or above) internal network &amp; internet connectivity status (using ping) 
 >>>>>>> 806ac9c4a38b2cee128bd2db2c4211e96cd29605
