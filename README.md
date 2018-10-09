@@ -1,6 +1,6 @@
 # Windows Network Checkup Script
 
-## Checks windows users(7 or above) internal network &amp; internet connectivity status (using ping) 
+### Checks windows users(7 or above) internal network &amp; internet connectivity status (using ping) 
 
 ### Quick Start
 
@@ -10,6 +10,3 @@
 - 	For 1 minute continuosly this *mastercheck.bat* file will run and log output in txt file in individual folders,
 	***For eg.. "ping_remote","ping_google","ping_gateway".***
 - 	After completion of 1 minute(60s) this script will automatically stop get & log all the contents in **finalreport.txt** file in main folder.
-=======
-# windows-network-connectivity-checkup
->>>>>>> 806ac9c4a38b2cee128bd2db2c4211e96cd29605
